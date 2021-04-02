@@ -1,0 +1,64 @@
+body {
+    width:98vw;
+    height:98vh;
+    margin:0px;
+    width:0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: none;
+    background-color: transparent !important;
+    user-select: none;
+}
+
+#container {
+    position:absolute;
+    width: 25%;
+    height:25%;
+    /* background-color:black; */
+    bottom:0px;
+    right:0px;
+}
+
+#speedometer {
+    width:100%;
+    height:100%;
+}
+
+.controlsBlock{
+    width: 12vh !important;
+    position: absolute;
+    bottom: 1vh;
+    right: 5vh;
+    display:none;
+}
+.actionCol{
+    height: 4vh;
+}
+
+.lockCol{
+    background-image: url(img/lockOff.png);
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.parkingCol{
+    background-image: url(img/parkingOff.png);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.beltCol{
+    background-image: url(img/seatbeltOff.png);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.keyCol{
+    font-size: 2vh;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
